@@ -3,7 +3,7 @@ esp32 logger supported by micropython with sgp30, bme680, and sd card reader
 
 ## What is it? what is that for? 
 
-Esp32 micropython based project was created for collecting data like temperature, humidity, pressure gas resistance from bme680, TVOC and eCO2.
+Esp32 micropython based project was created for collecting data like temperature, humidity, pressure, gas resistance from bme680, TVOC and eCO2.
 
 You can read more about sgp30 [here](https://github.com/winiar93/MicroLogger).
 
