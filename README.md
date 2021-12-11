@@ -12,11 +12,13 @@ That side project will help to further develop the main [project](https://github
 There is visible correlation between bme680 sensor resistance readings and values from sgp30 which are VOCs and eCO2.
 Higher concentration of VOCs causes lower sensor resistance.
 Lower concentration of VOCs causes higher sensor resistance.
-Also for better data quality it will be necessary to change place of measurements few times after some days.
+For better data quality it will be necessary to change place of measurements few times after some days.
 
-So the goal will be creating neural network model to estimate possible VOCs with whole collected data.
+So the goal will be creating neural network model to estimate possible VOCs with readings only from bme680.
 Using that model it could be possible to build e.g. data pipeline for
 calculations and after that store data on cloud or in relational database. 
+Also after creating model it will be possible to develop bme680 Bosh sensor based weather station with deep sleep power saving modes.
+I couldn't find if there any lib that can handle deep sleep and converting Bosh sesnor gas resistance readings to VOCs.
 
 #### Libraries in this project:
 * [Adafruit_CircuitPython_BME680](https://github.com/adafruit/Adafruit_CircuitPython_BME680)
