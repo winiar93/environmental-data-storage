@@ -9,10 +9,9 @@ You can read more about sgp30 [here](https://github.com/winiar93/MicroLogger).
 
 That side project will help to further develop the main [project](https://github.com/winiar93/raspberry-pi-bme680-logger)
 There is visible correlation between bme680 sensor resistance readings and values from sgp30 which are VOCs and eCO2.
-
 Higher concentration of VOCs causes lower sensor resistance.
-
-Lower concentration of VOCs causes higher sensor resistance
+Lower concentration of VOCs causes higher sensor resistance.
+Also for better data quality it will be necessary to change place of measurements few times after some days.
 
 So the goal will be creating neural network model to estimate possible VOCs with whole collected data.
 Using that model it could be possible to build e.g. data pipeline for
